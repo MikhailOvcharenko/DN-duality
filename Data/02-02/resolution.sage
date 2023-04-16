@@ -1,0 +1,96 @@
+# The resolution tree of a general member of the pencil
+pencil_general_member_singularities_resolution_00 = \
+    LabelledOrderedTree([], label = (3, (0, 0, 0, 0)));
+
+pencil_general_member_singularities_resolution_01_00_00_00_00 = \
+    LabelledOrderedTree([], label = (0, (0, 0, -l, l - 1)));
+pencil_general_member_singularities_resolution_01_00_00_00_01 = \
+    LabelledOrderedTree([], label = (2, (-1/l, 0, 0, 1/l - 1)));
+pencil_general_member_singularities_resolution_01_00_00_00_02 = \
+    LabelledOrderedTree([], label = (3, (1/(l - 1), 0, -l/(l - 1), 0)));
+
+pencil_general_member_singularities_resolution_01_00_00_01_00 = \
+    LabelledOrderedTree([], label = (0, (0, 0, l - 1, -l)));
+pencil_general_member_singularities_resolution_01_00_00_01_01 = \
+    LabelledOrderedTree([], label = (2, (1/(l - 1), 0, 0, -l/(l - 1))));
+pencil_general_member_singularities_resolution_01_00_00_01_02 = \
+    LabelledOrderedTree([], label = (3, (-1/l, 0, 1/l - 1, 0)));
+
+pencil_general_member_singularities_resolution_01_00_01_00_00 = \
+    LabelledOrderedTree([], label = (0, (0, 0, l, -(l + 1))));
+pencil_general_member_singularities_resolution_01_00_01_00_01 = \
+    LabelledOrderedTree([], label = (2, (1/l, 0, 0, -(1 + 1/l))));
+pencil_general_member_singularities_resolution_01_00_01_00_02 = \
+    LabelledOrderedTree([], label = (3, (-1/(l + 1), 0, -l/(l + 1), 0)));
+
+pencil_general_member_singularities_resolution_01_00_01_01_00 = \
+    LabelledOrderedTree([], label = (0, (0, 0, -(l + 1), l)));
+pencil_general_member_singularities_resolution_01_00_01_01_01 = \
+    LabelledOrderedTree([], label = (2, (-1/(l + 1), 0, 0, -l/(l + 1))));
+pencil_general_member_singularities_resolution_01_00_01_01_02 = \
+    LabelledOrderedTree([], label = (3, (1/l, 0, -(1 + 1/l), 0)));
+
+pencil_general_member_singularities_resolution_01_00_00_00 = \
+    LabelledOrderedTree\
+    ([pencil_general_member_singularities_resolution_01_00_00_00_00,
+      pencil_general_member_singularities_resolution_01_00_00_00_01,
+      pencil_general_member_singularities_resolution_01_00_00_00_02],
+     label = (2, (0, 0, 0, -1)));
+pencil_general_member_singularities_resolution_01_00_00_01 = \
+    LabelledOrderedTree\
+    ([pencil_general_member_singularities_resolution_01_00_00_01_00,
+      pencil_general_member_singularities_resolution_01_00_00_01_01,
+      pencil_general_member_singularities_resolution_01_00_00_01_02],
+     label = (3, (0, 0, -1, 0)));
+
+pencil_general_member_singularities_resolution_01_00_01_00 = \
+    LabelledOrderedTree\
+    ([pencil_general_member_singularities_resolution_01_00_01_00_00,
+      pencil_general_member_singularities_resolution_01_00_01_00_01,
+      pencil_general_member_singularities_resolution_01_00_01_00_02],
+     label = (2, (0, 0, 0, -1)));
+pencil_general_member_singularities_resolution_01_00_01_01 = \
+    LabelledOrderedTree\
+    ([pencil_general_member_singularities_resolution_01_00_01_01_00,
+      pencil_general_member_singularities_resolution_01_00_01_01_01,
+      pencil_general_member_singularities_resolution_01_00_01_01_02],
+     label = (3, (0, 0, -1, 0)));
+
+pencil_general_member_singularities_resolution_01_00_00 = LabelledOrderedTree\
+    ([pencil_general_member_singularities_resolution_01_00_00_00,
+      pencil_general_member_singularities_resolution_01_00_00_01],
+     label = (2, (0, 0, 0, -1)));
+pencil_general_member_singularities_resolution_01_00_01 = LabelledOrderedTree\
+    ([pencil_general_member_singularities_resolution_01_00_01_00,
+      pencil_general_member_singularities_resolution_01_00_01_01],
+     label = (3, (0, 0, -1, 0)));
+
+pencil_general_member_singularities_resolution_01_00 = LabelledOrderedTree\
+    ([pencil_general_member_singularities_resolution_01_00_00,
+      pencil_general_member_singularities_resolution_01_00_01],
+     label = (3, (0, 0, 0, 0)));
+
+pencil_general_member_singularities_resolution_01 = \
+    LabelledOrderedTree([pencil_general_member_singularities_resolution_01_00],
+                        label = (1, (0, 0, 0, 0)));
+
+pencil_general_member_singularities_resolution_02_00_00_00 = \
+    LabelledOrderedTree([], label = (2, (0, 0, 0, 0)));
+
+pencil_general_member_singularities_resolution_02_00_00 = LabelledOrderedTree\
+    ([pencil_general_member_singularities_resolution_02_00_00_00],
+     label = (2, (0, 0, 0, 0)));
+
+pencil_general_member_singularities_resolution_02_00 = LabelledOrderedTree\
+    ([pencil_general_member_singularities_resolution_02_00_00],
+     label = (3, (0, 0, 0, 0)));
+
+pencil_general_member_singularities_resolution_02 = \
+    LabelledOrderedTree([pencil_general_member_singularities_resolution_02_00],
+                        label = (0, (0, 0, 0, 0)));
+
+pencil_general_member_singularities_resolution = \
+    LabelledOrderedTree([pencil_general_member_singularities_resolution_00,
+                         pencil_general_member_singularities_resolution_01,
+                         pencil_general_member_singularities_resolution_02],
+                        label = '\\lambda_{\\mathrm{general}}');
