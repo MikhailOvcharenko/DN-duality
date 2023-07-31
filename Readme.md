@@ -2,7 +2,7 @@
 
 Author: Mikhail Ovcharenko.
 
-We construct the Dolgachev--Nikulin dual lattice to the Picard lattice of a general anticanonical section for any smooth Fano threefold in Mori--Mukai classification, following ``Modularity of Landau--Ginzburg models'' by Doran--Harder--Katzarkov--Ovcharenko--Przyjalkowski (to be published).
+We construct the Dolgachev--Nikulin dual lattice to the Picard lattice of a general anticanonical section for any smooth Fano threefold in Mori--Mukai classification, following ``Modularity of Landau--Ginzburg models'' by Doran--Harder--Katzarkov--Ovcharenko--Przyjalkowski  (see [arXiv:2307.15607](https://arxiv.org/abs/2307.15607)).
 
 For any details regarding this code, contact me at <ovcharenko@mi-ras.ru>.
 
