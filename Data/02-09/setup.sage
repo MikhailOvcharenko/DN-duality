@@ -23,12 +23,6 @@ LG_model_polytope_PALP_ID = 3014;
 LG_model_period_sequence_GRDB_ID = 139;
 LG_model_period_sequence_PFO_degree = 4;
 
-# Is it a Minkowski toric Landau--Ginzburg model?
-LG_model_is_Minkowski = True;
-
-# Degree of the Picard--Fuchs operator of the toric Landau--Ginzburg model
-LG_model_PFO_degree = 4;
-
 # The coordinate ring of the ambient space
 coordinate_vars = ('X', 'Y', 'Z', 'T');   
 coordinate_ring = PolynomialRing(parameter_ring, names = coordinate_vars);
